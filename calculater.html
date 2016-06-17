@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculater</title>
+</head>
+<body>
+<form name="calculator" >
+    <input type="textfield" class="tf" name="ans" value="">
+    <br>
+    <input class="bb" type="reset" value="AC">
+    <br>
+    <input class="bb" type="button" value="1" onClick="document.calculator.ans.value+='1'">
+    <input class="bb" type="button" value="2" onClick="document.calculator.ans.value+='2'">
+    <input class="bb" type="button" value="3" onClick="document.calculator.ans.value+='3'">
+    <input class="bb" type="button" value="+" onClick="document.calculator.ans.value+='+'">
+    <br>
+    <input class="bb" type="button" value="4" onClick="document.calculator.ans.value+='4'">
+    <input class="bb" type="button" value="5" onClick="document.calculator.ans.value+='5'">
+    <input class="bb" type="button" value="6" onClick="document.calculator.ans.value+='6'">
+    <input class="bb" type="button" value="-" onClick="document.calculator.ans.value+='-'">
+    <br>
+    <input class="bb" type="button" value="7" onClick="document.calculator.ans.value+='7'">
+    <input class="bb" type="button" value="8" onClick="document.calculator.ans.value+='8'">
+    <input class="bb" type="button" value="9" onClick="document.calculator.ans.value+='9'">
+    <input class="bb" type="button" value="x" onClick="document.calculator.ans.value+='*'">
+    <br>
+    <input class="bb" type="button" value="0" onClick="document.calculator.ans.value+='0'">
+    <input type="button" class="bb" value="/" onClick="document.calculator.ans.value+='/'">
+    <input class="bb" type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+    <input class="bb" type="button" value="R" onClick="document.calculator.ans.value+='%'">
+</body>
+</html>
